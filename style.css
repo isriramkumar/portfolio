@@ -1,0 +1,42 @@
+.gradient-background {
+  background: linear-gradient(300deg, #d4ebf8, #1f509a, #0a3981);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.profile-img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: #fcfdfd;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Doto", sans-serif;
+  margin-bottom: 30px;
+}
+
+.para {
+  color: #fcfdfd;
+  font-family: "Doto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+body {
+  background-color: #d4ebf8;
+}
